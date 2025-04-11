@@ -22,7 +22,7 @@ function Contact() {
     e.preventDefault();
     try {
       const response = await fetch(
-        "backend-production-670c.up.railway.app/submit",
+        "https://backend-production-670c.up.railway.app/submit",
         {
           method: "POST",
           headers: {
