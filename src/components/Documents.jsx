@@ -2,19 +2,19 @@ import React, { useState, useEffect } from "react";
 import "./Documents.css";
 import { motion } from "framer-motion";
 
-const images3 = "../src/assets/abt/doc/Trans_2.jpg";
+const images3 = "/assets/abt/doc/Trans_2.jpg";
 const images1 = [
-  "public/assets/abt/doc/Ijazah.jpg",
-  "public/assets/abt/doc/Trans_1.jpg",
-  "public/assets/abt/doc/Trans_2.jpg",
+  "/assets/abt/doc/Ijazah.jpg",
+  "/assets/abt/doc/Trans_1.jpg",
+  "/assets/abt/doc/Trans_2.jpg",
 ];
 const images2 = [
-  "public/assets/abt/doc/ai4s.jpg",
-  "public/assets/abt/doc/cisco.jpg",
-  "public/assets/abt/doc/sql.jpg",
-  "public/assets/abt/doc/visualisasi.jpg",
-  "public/assets/abt/doc/bmkg.jpg",
-  "public/assets/abt/doc/sikonek.jpg",
+  "/assets/abt/doc/ai4s.jpg",
+  "/assets/abt/doc/cisco.jpg",
+  "/assets/abt/doc/sql.jpg",
+  "/assets/abt/doc/visualisasi.jpg",
+  "/assets/abt/doc/bmkg.jpg",
+  "/assets/abt/doc/sikonek.jpg",
 ];
 const teks1 = ["Ijazah", "Transkrip_1", "Transkrip_2"];
 const teks2 = [
