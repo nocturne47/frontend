@@ -92,7 +92,7 @@ function Projects() {
                   >
                     {playing[index] ? (
                       <video
-                        src={`/assets/proj/${row.video}`} // Replace with the actual video URL if different per project
+                        src={`/proj/${row.video}`} // Replace with the actual video URL if different per project
                         controls
                         autoPlay
                         className="media-element cursor-pointer"
@@ -102,7 +102,7 @@ function Projects() {
                       />
                     ) : (
                       <img
-                        src={`/assets/proj/${row.gambar}`}
+                        src={`/proj/${row.gambar}`}
                         alt={row.judul}
                         className="media-element cursor-pointer"
                         onClick={() => handleToggle(index)}
