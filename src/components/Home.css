@@ -68,7 +68,7 @@
 /*large mobile (≥ 481px) */
 @media (min-width: 481px) {
   .Home {
-    /* max-width: 768px; */
+    max-width: 768px;
     width: 100%;
   }
   .Home .content {
