@@ -58,7 +58,7 @@ li a:hover {
 /* Tablets (≥ 768px) */
 @media (min-width: 768px) {
   .header {
-    max-width: 1200px;
+    /* max-width: 1200px; */
     position: absolute;
     z-index: 1000; /* Keeps it above other elements */
     display: flex; /* Optional: Makes it flexible */
