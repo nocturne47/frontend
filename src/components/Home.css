@@ -50,8 +50,8 @@
 }
 
 .img-background {
-  height: 30vh;
-  width: 30vh;
+  height: 40vh;
+  width: 40vh;
   opacity: 70%;
 }
 @media (max-width: 376px) {
