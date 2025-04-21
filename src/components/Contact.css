@@ -18,6 +18,8 @@
   align-items: center;
   height: 100vh;
   max-width: 90%;
+  padding-bottom: 2rem;
+
   /* background-color: black; */
 }
 
@@ -52,7 +54,6 @@ textarea {
   background-color: #000;
   height: 40vh;
   display: flex;
-  padding-bottom: 2rem;
 }
 .tact-half {
   width: 60%;
