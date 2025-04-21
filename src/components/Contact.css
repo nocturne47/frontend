@@ -126,7 +126,7 @@ textarea {
     text-align: right;
     margin: 0 auto;
     margin-top: 3rem;
-    background-image: url("../src/assets/background.jpg");
+    background-image: url("/assets/background.jpg");
     background-position-x: center;
     background-size: contain;
     background-repeat: no-repeat;
