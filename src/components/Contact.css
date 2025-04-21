@@ -131,7 +131,7 @@ textarea {
     margin-top: 3rem;
     background-image: url("/assets/background.jpg");
     background-position-x: center;
-    background-size: contain;
+    /* background-size: contain; */
     background-repeat: no-repeat;
   }
   .pic-cont {
