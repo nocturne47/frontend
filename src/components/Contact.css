@@ -107,6 +107,7 @@ textarea {
   }
   .cont {
     width: 90%;
+    height: 100vh;
   }
   .Fill-Box {
     padding-top: 0;
@@ -116,7 +117,7 @@ textarea {
     height: 100%;
   }
   .tact {
-    height: 100%;
+    height: 100vh;
     width: 60%;
   }
   .tact-half {
