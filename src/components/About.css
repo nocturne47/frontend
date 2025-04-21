@@ -121,12 +121,12 @@
     padding: 0;
   }
   .About .imagesab .about-img {
-    height: 14rem;
-    width: 14rem;
+    height: 16rem;
+    width: 16rem;
   }
   .About .imagesab .about-img:hover {
-    height: 15rem;
-    width: 15rem;
+    height: 17rem;
+    width: 17rem;
   }
   .contentab-par {
     order: 1;
@@ -153,12 +153,12 @@
     min-height: 55vh;
   }
   .About .imagesab .about-img {
-    height: 16rem;
-    width: 16rem;
-  }
-  .About .imagesab .about-img:hover {
     height: 17rem;
     width: 17rem;
+  }
+  .About .imagesab .about-img:hover {
+    height: 18rem;
+    width: 18rem;
   }
   .contentab-par p {
     font-size: 1.1rem;
@@ -175,5 +175,13 @@
   }
   .contentab-par p {
     font-size: 1.2rem;
+  }
+  .About .imagesab .about-img {
+    height: 19rem;
+    width: 19rem;
+  }
+  .About .imagesab .about-img:hover {
+    height: 20rem;
+    width: 20rem;
   }
 }
