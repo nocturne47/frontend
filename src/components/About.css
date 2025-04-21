@@ -18,15 +18,15 @@
 .About .imagesab .about-img {
   /* margin-left: auto;
   margin-right: auto; */
-  height: 15rem;
-  width: 15rem;
+  height: 10rem;
+  width: 10rem;
   padding: 0.3rem;
   border-top-right-radius: 30%;
   border-bottom-right-radius: 30%;
 }
 .About .about-img:hover {
-  height: 20rem;
-  width: 20rem;
+  height: 15rem;
+  width: 15rem;
 }
 
 .abcontent {
@@ -67,16 +67,16 @@
     /* margin-left: auto;
     margin-right: auto; */
     margin: auto;
-    height: 40rem;
-    width: 40rem;
+    height: 20rem;
+    width: 20rem;
     padding: 0.3rem;
     border-top-right-radius: 0%;
     border-bottom-right-radius: 0%;
     border-radius: 30%;
   }
   .About .imagesab .about-img:hover {
-    height: 45rem;
-    width: 45rem;
+    height: 25rem;
+    width: 25rem;
   }
   .contentab-par {
     max-width: 85vh;
@@ -121,12 +121,12 @@
     padding: 0;
   }
   .About .imagesab .about-img {
-    height: 45rem;
-    width: 45rem;
+    height: 30rem;
+    width: 30rem;
   }
   .About .imagesab .about-img:hover {
-    height: 50rem;
-    width: 50rem;
+    height: 35rem;
+    width: 35rem;
   }
   .contentab-par {
     order: 1;
@@ -153,12 +153,12 @@
     min-height: 55vh;
   }
   .About .imagesab .about-img {
-    height: 50rem;
-    width: 50rem;
+    height: 40rem;
+    width: 40rem;
   }
   .About .imagesab .about-img:hover {
-    height: 55rem;
-    width: 55rem;
+    height: 45rem;
+    width: 45rem;
   }
   .contentab-par p {
     font-size: 1.1rem;
