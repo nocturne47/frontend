@@ -25,8 +25,8 @@
   border-bottom-right-radius: 30%;
 }
 .About .about-img:hover {
-  height: 10.3rem;
-  width: 10.3rem;
+  height: 11rem;
+  width: 11rem;
 }
 
 .abcontent {
@@ -67,16 +67,16 @@
     /* margin-left: auto;
     margin-right: auto; */
     margin: auto;
-    height: 10.6rem;
-    width: 10.6rem;
+    height: 12rem;
+    width: 12rem;
     padding: 0.3rem;
     border-top-right-radius: 0%;
     border-bottom-right-radius: 0%;
     border-radius: 30%;
   }
   .About .imagesab .about-img:hover {
-    height: 10.9rem;
-    width: 10.9rem;
+    height: 13rem;
+    width: 13rem;
   }
   .contentab-par {
     max-width: 85vh;
@@ -121,12 +121,12 @@
     padding: 0;
   }
   .About .imagesab .about-img {
-    height: 11.2rem;
-    width: 11.2rem;
+    height: 14rem;
+    width: 14rem;
   }
   .About .imagesab .about-img:hover {
-    height: 11.5rem;
-    width: 11.5rem;
+    height: 15rem;
+    width: 15rem;
   }
   .contentab-par {
     order: 1;
@@ -153,12 +153,12 @@
     min-height: 55vh;
   }
   .About .imagesab .about-img {
-    height: 11.8rem;
-    width: 11.8rem;
+    height: 16rem;
+    width: 16rem;
   }
   .About .imagesab .about-img:hover {
-    height: 12.1rem;
-    width: 12.1rem;
+    height: 17rem;
+    width: 17rem;
   }
   .contentab-par p {
     font-size: 1.1rem;
