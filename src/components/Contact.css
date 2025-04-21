@@ -52,6 +52,7 @@ textarea {
   background-color: #000;
   height: 40vh;
   display: flex;
+  padding-bottom: 2rem;
 }
 .tact-half {
   width: 60%;
