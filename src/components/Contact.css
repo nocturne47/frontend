@@ -107,7 +107,7 @@ textarea {
   }
   .cont {
     width: 90%;
-    height: 100vh;
+    height: auto;
   }
   .Fill-Box {
     padding-top: 0;
@@ -117,7 +117,7 @@ textarea {
     height: 100%;
   }
   .tact {
-    height: auto;
+    height: 100vh;
     width: 60%;
   }
   .tact-half {
@@ -131,7 +131,7 @@ textarea {
     margin-top: 3rem;
     background-image: url("/assets/background.jpg");
     background-position-x: center;
-    /* background-size: contain; */
+    background-size: contain;
     background-repeat: no-repeat;
   }
   .pic-cont {
