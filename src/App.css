@@ -13,10 +13,7 @@ html {
 }
 
 #root {
-  /* max-width: 480px; */
-  /* margin: 0 auto; */
-  /* padding: 2rem; */
-  /* text-align: center; */
+  background-color: #888;
 }
 
 @keyframes logo-spin {
