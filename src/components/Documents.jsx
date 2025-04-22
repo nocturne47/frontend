@@ -152,7 +152,7 @@ const Documents = ({ isClicked }) => {
           className="lightbox"
         >
           <img
-            src="../src/assets/abt/doc/cv.jpg"
+            src="/assets/abt/doc/cv.jpg"
             alt="CV Preview"
             className="lightbox-image"
             onMouseLeave={() => setIsHovered(false)}
