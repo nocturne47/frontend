@@ -122,13 +122,13 @@
 @media (max-width: 376px) {
   #proje-titel h1 {
     font-size: xx-large;
-    padding-top: 1rem;
+    padding-top: 1.5rem;
   }
   #proje-titel p {
     font-size: xx-small;
     padding-top: 0;
     text-align: justify;
-    width: 35%;
+    width: 30%;
   }
   .proj-img {
     /* margin: 2rem; */
