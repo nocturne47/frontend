@@ -11,6 +11,7 @@
 #proje-titel {
   text-align: center;
   padding: 1rem;
+  padding-top: 4rem;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -120,9 +121,6 @@
 }
 
 @media (max-width: 376px) {
-  #proje-titel {
-    padding-top: 3rem;
-  }
   #proje-titel h1 {
     font-size: xx-large;
   }
