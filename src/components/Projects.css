@@ -121,7 +121,7 @@
 
 @media (max-width: 376px) {
   #proje-titel {
-    padding-top: 1.5rem;
+    padding: 2rem 0;
   }
   #proje-titel h1 {
     font-size: xx-large;
