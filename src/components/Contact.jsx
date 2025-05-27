@@ -6,43 +6,36 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 function Contact() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData((prev) => ({
-      ...prev,
-      [name]: value,
-    }));
-  };
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    try {
-      const response = await fetch(
-        "https://backend-production-670c.up.railway.app/submit",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(formData),
-        }
-      );
-      const result = await response.json();
+  const [form, setForm] = useState({ name: "", email: "", message: "" });
 
-      if (response.ok) {
-        alert("✅" + result.message);
-        setFormData({ name: "", email: "", message: "" });
-      } else {
-        alert("❌ Failed to send message.");
+  const handleChange = (e) => {
+    setForm({ ...form, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    const formData = new FormData();
+    formData.append("name", form.name);
+    formData.append("email", form.email);
+    formData.append("message", form.message);
+
+    fetch(
+      "https://script.google.com/macros/s/AKfycbyiCNA4vQoD5W4Uh2Vm9P0DxbiJIr1qVGmfAANf6CqFMTirGfCsTPVim5g-63iiuMNApQ/exec",
+      {
+        method: "POST",
+        body: formData,
       }
-    } catch (error) {
-      console.error("Error:", error);
-      alert("❌ Server error.");
-    }
+    )
+      .then((res) => res.json())
+      .then((data) => {
+        console.log("Success:", data);
+        alert("Form berhasil dikirim!");
+      })
+      .catch((err) => {
+        console.error("Error:", err);
+        alert("Gagal mengirim form!");
+      });
   };
 
   return (
@@ -51,12 +44,12 @@ function Contact() {
         <h1>Get in Touch</h1>
         <p>"Communication is the key of successful relationship"</p>
         <div className="Fill-Box">
-          <form action="" onSubmit={handleSubmit}>
+          <form onSubmit={handleSubmit}>
             <input
               type="text"
               name="name"
               required
-              value={formData.name}
+              value={form.name}
               onChange={handleChange}
               placeholder="Your name"
             />
@@ -64,7 +57,7 @@ function Contact() {
               type="email"
               name="email"
               required
-              value={formData.email}
+              value={form.email}
               onChange={handleChange}
               id=""
               placeholder="your-email@mail.com"
@@ -72,7 +65,7 @@ function Contact() {
             <textarea
               name="message"
               required
-              value={formData.message}
+              value={form.message}
               onChange={handleChange}
               id=""
               placeholder="Your message..."
