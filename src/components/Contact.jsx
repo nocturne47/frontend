@@ -31,6 +31,7 @@ function Contact() {
       .then((data) => {
         console.log("Success:", data);
         alert("Form berhasil dikirim!");
+        setForm({ name: "", email: "", message: "" });
       })
       .catch((err) => {
         console.error("Error:", err);
