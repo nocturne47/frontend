@@ -12,6 +12,7 @@ import {
   CSSIcon,
   ESPIcon,
   ARDIcon,
+  GoogleIcon,
 } from "./icon";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -35,6 +36,7 @@ function Projects() {
     css: <CSSIcon />,
     esp: <ESPIcon />,
     arduino: <ARDIcon />,
+    google: <GoogleIcon />,
   };
 
   // Toggle video for the specific index
