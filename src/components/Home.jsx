@@ -26,7 +26,7 @@ function Home() {
       <div className="Image-Mot" data-aos="fade-left">
         <motion.img
           key={hovered ? "hovered" : "default"}
-          src={hovered ? "/assets/kbgr.jpg" : "/assets/mine_4.jpg"}
+          src={hovered ? "/assets/kbgr.jpg" : "/assets/mine5.jpg"}
           className="img-background"
           alt=""
           initial={{ opacity: 0 }}
