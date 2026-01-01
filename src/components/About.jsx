@@ -9,9 +9,10 @@ import gbr2 from "/assets/abt/gbr2.jpg";
 import gbr3 from "/assets/abt/gbr3.jpg";
 import gbr4 from "/assets/abt/gbr4.jpg";
 import gbr5 from "/assets/abt/gbr5.jpg";
+import gbr6 from "/assets/abt/gbr6.jpeg";
 import AOS from "aos";
 import "aos/dist/aos.css";
-const images = [gbr1, gbr2, gbr3, gbr4, gbr5];
+const images = [gbr1, gbr2, gbr3, gbr4, gbr5, gbr6];
 
 function About() {
   useEffect(() => {
@@ -72,7 +73,7 @@ function About() {
         </div>
         <div className="contentab-par" data-aos="fade-up" data-aos-delay="100">
           <p>
-            A recent graduate from{" "}
+            A graduate from{" "}
             <span
               className="usu"
               onMouseEnter={() => handleMouseEnter(0)}
@@ -80,9 +81,7 @@ function About() {
             >
               <a href="">Universitas Sumatera Utara</a>{" "}
             </span>{" "}
-            who eager to know and practice more about Technology Advancement
-            such as Artificial Intelligence, automation and robotic system
-            design, and also digitalization like app and website development.
+            who have a passion in technology development.
           </p>
           <p>
             So i decided to take opportunities to have experiences in tech's
@@ -116,7 +115,7 @@ function About() {
             I also had projects done those i will show in the{" "}
             <a href="#Projects">Projects</a> section. Including my final thesis
             was about Designing Cashless Payment System using Face Recognition.
-            And know, after my graduation i work at{" "}
+            And know, after my graduation i worked at{" "}
             <span
               className="smi"
               onMouseEnter={() => handleMouseEnter(4)}
@@ -125,7 +124,16 @@ function About() {
               <a href="">Swap Energi Indonesia</a>
             </span>{" "}
             as a Product Technician for Battery Swap Station project for all
-            area in Indonesia. For other documents,{" "}
+            area in Indonesia. For now, i am an Engineering Development Program
+            Staffs at{" "}
+            <span
+              className="sim"
+              onMouseEnter={() => handleMouseEnter(4)}
+              onMouseLeave={handleMouseLeave}
+            >
+              <a href="">Suzuki Indomobil Motor</a>.
+            </span>{" "}
+            For other documents,{" "}
             <span
               className="ShowOther"
               onClick={toggleClick}
