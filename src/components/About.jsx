@@ -128,7 +128,7 @@ function About() {
             Staffs at{" "}
             <span
               className="sim"
-              onMouseEnter={() => handleMouseEnter(4)}
+              onMouseEnter={() => handleMouseEnter(5)}
               onMouseLeave={handleMouseLeave}
             >
               <a href="">Suzuki Indomobil Motor</a>.
